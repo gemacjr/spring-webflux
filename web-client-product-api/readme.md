@@ -1,0 +1,3 @@
+#
+
+use VM arguments => --add-opens java.base/jdk.internal.misc=ALL-UNNAMED -Dio.netty.tryReflectionSetAccessible=true
