@@ -1,2 +1,15 @@
-package com.example.webfluxdemovs.dto;public class MultiplyRequestDto {
+package com.example.webfluxdemovs.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Builder
+public class MultiplyRequestDto {
+    private int first;
+    private int second;
 }
