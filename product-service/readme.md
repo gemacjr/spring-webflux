@@ -64,4 +64,5 @@ Responsw
 ]
 ```
 
+Simillarly we can do create, update and delete.
 
